@@ -4,45 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apoio Onganimais Depatinhas</title>
+    <meta name="description" content="Entre em contato conosco para mais informações sobre nosso apoio às ONGs de proteção animal.">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <title>Contato - Apoio Onganimais Depatinhas</title>
 </head>
 
 <body>
-    <header>
-        <h1>Contato</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="ongs.html">Parceiras</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <!-- Adicionar mais links conforme necessário -->
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Contato</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="ongs.html">Parceiras</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-        <section id="formulario-contato">
-            <h2>Fale Conosco</h2>
-            <form>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+        <main>
+            <section id="formulario-contato">
+                <h2>Fale Conosco</h2>
+                <form id="contact-form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
 
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
 
-    <footer>
-        <p>&copy; 2024 SummerCode</p>
-    </footer>
-    <script src="js/script.js"></script>
+        <footer>
+            <p>&copy; 2024 SummerCode</p>
+        </footer>
+    </div>
+    <script src="js/script.js" defer></script>
 </body>
 
 </html>
