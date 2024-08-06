@@ -1,0 +1,178 @@
+@import url('FredokaOne-Regular.ttf');
+@import url('Corner\ Cafe.ttf');
+@import url('Corner\ Cafe.otf');
+
+@font-face {
+    font-family: 'Corner';
+    src: url('Corner Cafe.ttf') format(truetype), url('Corner\ Cafe.otf') format(opentype);
+}
+
+@font-face {
+    font-family: 'Fredoka One';
+    src: url(FredokaOne-Regular.ttf) format(truetype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #708871;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1980px;
+    max-height: 1080px;
+    margin: auto;
+    margin-left: 100px;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho {
+    background-color: #FFF6E9;
+    color: black;
+}
+
+.cabeçalho-nome {
+    color: black;
+    font-family: 'Corner';
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: black;
+    font-family: 'Corner';
+    font-size: 18px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-div-principal {
+    margin-top: 5rem;
+    font-family: 'Corner';
+    font-weight: 200;
+    font-size: 50px;
+    color: #FFF6E9;
+}
+
+.rodapé {
+    background-color: #FFF6E9;
+    padding: 31px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center; 
+}
+
+.rodapé-titulo{
+    gap: px;
+    font-size: 25px;
+    font-family: 'Corner';
+}
+
+.ONG {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 1980px;
+    padding: 15rem 5rem;
+    margin-top: -100px;
+}
+
+.ONG-container {
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    row-gap: 1000px;
+}
+
+.ONG-cards {
+    background: #FFF6E9;
+    padding: 32px;
+    border-radius: 8px;
+    margin: auto;
+    max-width: 1980px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+}
+
+.ONG-cards-cabeçalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ONG-detalhes-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.ONG-titulo-card {
+    font-family: 'Corner';
+    font-size: 25px;
+    font-weight: 550;
+    color: black;
+}
+
+.ONG-descricao {
+    display: flex;
+    justify-content: center;
+    font-family: 'Fredoka One';
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.ONG-nomedaONG {
+    display: flex;
+    justify-content: center;
+    font-family: 'Fredoka One';
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}
+
+.link-card:hover {
+    background-color: #DD761C;
+}
+
+.link-card {
+    align-self: center;
+    font-family: 'Corner';
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
